@@ -19,8 +19,6 @@
         flex-direction: row;
     }
 
-
-    /* RIGHT SIDE */
     .createacount {
         display: flex;
         flex-direction: row;
@@ -35,7 +33,7 @@
         justify-content: center;
     }
 
-    .right h2 {
+    .h2 {
         font-size: 24px;
         margin-bottom: 10px;
         display: flex;
@@ -43,19 +41,19 @@
         gap: 10px;
     }
 
-    .right p {
+    .p {
         font-size: 14px;
         margin-bottom: 30px;
         color: gray;
     }
 
-    .form-group {
+    .form {
         display: flex;
         flex-direction: column;
         margin-bottom: 15px;
     }
 
-    .form-group input {
+    .form input {
         padding: 12px;
         border: 1px solid #d9d9d9;
         border-radius: 6px;
@@ -67,25 +65,21 @@
         color: white;
         padding: 12px;
         margin-top: 15px;
-        width: 100%;
-        border: none;
         border-radius: 6px;
         font-size: 16px;
-        cursor: pointer;
+        border: 1px solid #4c46ff;
     }
 
-    .google-btn {
+    .google {
         margin-top: 15px;
-        width: 100%;
         padding: 12px;
-        border: 1px solid #d9d9d9;
         border-radius: 6px;
-        cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
         background: #fff;
+        border: 1px solid #d9d9d9;
     }
 
     .login-link {
