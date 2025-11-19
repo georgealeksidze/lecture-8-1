@@ -3,7 +3,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
     }
 
     body {
@@ -18,29 +17,34 @@
         display: flex;
         flex-direction: row;
     }
+    .image-box {
+        width: 806.5;
+        height: 1310;
+    }
 
     .createacount {
         display: flex;
         flex-direction: row;
         justify-content: start;
+        align-items: center;
         gap: 20px;
+        width: 80%;
     }
     .right {
-               display: flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 60px;
+        padding: 300px;
+        padding-top: 100px;
  
     }
-
-    .h2 {
-        display: flex;
-        align-items: center;
-        font-size: 24px;
-        margin-bottom: 10px;
-        gap: 10px;
+    h2 {
+        font-size: 20px;
     }
-
+    .trivo {
+        width: 334px;
+        
+    }
     p {
         font-size: 14px;
         margin-bottom: 30px;
